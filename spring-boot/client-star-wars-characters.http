@@ -1,0 +1,21 @@
+GET http://localhost:8080/api/star-wars-characters
+###
+POST http://localhost:8080/api/star-wars-characters
+Content-Type: application/json
+
+{
+  "name": "Jim",
+  "species": "Human",
+  "homeWorld": "Earth",
+  "affiliation": "DevPro"
+}
+###
+POST http://localhost:8080/api/star-wars-characters
+Content-Type: application/json
+
+{
+"name": "Alex",
+"species": "Human",
+"homeWorld": "Earth",
+"affiliation": "DevPro"
+}
