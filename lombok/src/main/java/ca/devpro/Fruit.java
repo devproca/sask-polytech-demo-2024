@@ -21,6 +21,10 @@ public class Fruit {
 		return colour;
 	}
 
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
+
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;

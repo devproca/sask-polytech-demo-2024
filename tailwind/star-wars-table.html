@@ -2,69 +2,77 @@
 <html>
 <head>
     <title>Star Wars Data Table</title>
-    <!--    <script src="https://cdn.tailwindcss.com"></script>-->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-<h2>Star Wars Characters</h2>
-<table border="1">
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Species</th>
-        <th>Home world</th>
-        <th>Affiliation</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Luke Skywalker</td>
-        <td>Human</td>
-        <td>Tatooine</td>
-        <td>Rebel Alliance</td>
-    </tr>
-    <tr>
-        <td>Darth Vader</td>
-        <td>Human</td>
-        <td>Tatooine</td>
-        <td>Galactic Empire</td>
-    </tr>
-    <tr>
-        <td>Leia Organa</td>
-        <td>Human</td>
-        <td>Alderaan</td>
-        <td>Rebel Alliance</td>
-    </tr>
-    <tr>
-        <td>Yoda</td>
-        <td>Yoda's species</td>
-        <td>Unknown</td>
-        <td>Jedi Order</td>
-    </tr>
-    <tr>
-        <td>Han Solo</td>
-        <td>Human</td>
-        <td>Corellia</td>
-        <td>Rebel Alliance</td>
-    </tr>
-    <tr>
-        <td>Chewbacca</td>
-        <td>Wookiee</td>
-        <td>Kashyyyk</td>
-        <td>Rebel Alliance</td>
-    </tr>
-    <tr>
-        <td>Emperor Palpatine</td>
-        <td>Human</td>
-        <td>Naboo</td>
-        <td>Galactic Empire</td>
-    </tr>
-    <tr>
-        <td>Obi-Wan Kenobi</td>
-        <td>Human</td>
-        <td>Stewjon</td>
-        <td>Jedi Order</td>
-    </tr>
-    </tbody>
-</table>
+<body class="bg-gray-100">
+<div class="flex justify-center items-center">
+    <div class="flex flex-col mt-6 text-gray-700 bg-white shadow-md rounded-md border border-gray-200">
+        <div class="px-6 py-4 border-b border-gray-200">
+            <h2 class="font-semibold text-gray-700">Star Wars Characters</h2>
+        </div>
+        <div>
+            <table>
+                <thead class="divide-y divide-gray-200">
+                <tr class="text-xs font-medium text-gray-500 uppercase">
+                    <th class="text-left px-6 py-4">Name</th>
+                    <th class="text-left px-6 py-4">Species</th>
+                    <th class="text-left px-6 py-4">Home world</th>
+                    <th class="text-left px-6 py-4">Affiliation</th>
+                </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200">
+                <tr>
+                    <td class="px-6 py-4 font-medium">Luke Skywalker</td>
+                    <td class="px-6 py-4">Human</td>
+                    <td class="px-6 py-4">Tatooine</td>
+                    <td class="px-6 py-4">Rebel Alliance</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 font-medium">Darth Vader</td>
+                    <td class="px-6 py-4">Human</td>
+                    <td class="px-6 py-4">Tatooine</td>
+                    <td class="px-6 py-4">Galactic Empire</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 font-medium">Leia Organa</td>
+                    <td class="px-6 py-4">Human</td>
+                    <td class="px-6 py-4">Alderaan</td>
+                    <td class="px-6 py-4">Rebel Alliance</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 font-medium">Yoda</td>
+                    <td class="px-6 py-4">Yoda's species</td>
+                    <td class="px-6 py-4">Unknown</td>
+                    <td class="px-6 py-4">Jedi Order</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 font-medium">Han Solo</td>
+                    <td class="px-6 py-4">Human</td>
+                    <td class="px-6 py-4">Corellia</td>
+                    <td class="px-6 py-4">Rebel Alliance</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 font-medium">Chewbacca</td>
+                    <td class="px-6 py-4">Wookiee</td>
+                    <td class="px-6 py-4">Kashyyyk</td>
+                    <td class="px-6 py-4">Rebel Alliance</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 font-medium">Emperor Palpatine</td>
+                    <td class="px-6 py-4">Human</td>
+                    <td class="px-6 py-4">Naboo</td>
+                    <td class="px-6 py-4">Galactic Empire</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 font-medium">Obi-Wan Kenobi</td>
+                    <td class="px-6 py-4">Human</td>
+                    <td class="px-6 py-4">Stewjon</td>
+                    <td class="px-6 py-4">Jedi Order</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 </body>
 </html>

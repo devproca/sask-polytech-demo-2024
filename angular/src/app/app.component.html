@@ -1,3 +1,27 @@
-<div class="flex justify-center py-64">
-    <h1 class="text-6xl text-blue-700 animate-spin">Hello world!!!</h1>
+<div class="flex justify-center items-center">
+    <div class="flex flex-col mt-6 text-gray-700 bg-white shadow-md rounded-md border border-gray-200">
+        <div class="px-6 py-4 border-b border-gray-200">
+            <h2 class="font-semibold text-gray-700">Star Wars Characters</h2>
+        </div>
+        <div>
+            <table>
+                <thead class="divide-y divide-gray-200">
+                <tr class="text-xs font-medium text-gray-500 uppercase">
+                    <th class="text-left px-6 py-4">Name</th>
+                    <th class="text-left px-6 py-4">Species</th>
+                    <th class="text-left px-6 py-4">Home world</th>
+                    <th class="text-left px-6 py-4">Affiliation</th>
+                </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200">
+                <tr *ngFor="let character of characters">
+                    <td class="px-6 py-4 font-medium">{{ character.name }}</td>
+                    <td class="px-6 py-4">{{ character.species }}</td>
+                    <td class="px-6 py-4">{{ character.homeWorld }}</td>
+                    <td class="px-6 py-4">{{ character.affiliation }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
